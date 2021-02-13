@@ -11,10 +11,14 @@ This corpus is already available in NLTK library and can easily imported by usin
 from nltk.corpus import movie_reviews
 
 Below are few commands to work with this movie corpus:
-movie_reviews.categories()  Tells you sentiment category ( Positive, Negative )
-movie_reviews.fileids('pos')  Give you all the fileid containing positive reviews
-movie_reviews.words()  Tells you all the words used in corpus
-movie_reviews.words(fileid)  Tell you words used in a review under specified fileid
+
+movie_reviews.categories() --> Tells you sentiment category ( Positive, Negative )
+
+movie_reviews.fileids('pos') -->  Give you all the fileid containing positive reviews
+
+movie_reviews.words()-->  Tells you all the words used in corpus
+
+movie_reviews.words(fileid) --> Tell you words used in a review under specified fileid
 
 Data Preprocessing:
 
