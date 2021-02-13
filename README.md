@@ -29,6 +29,7 @@ Data Modelling for NLTK Naïve base classifier
 Obviously before feeding data into classifier we will have to format it in a way which classifier can understand. To do that, I have created many variables, but following two are the most important and worth understanding.
 
 Word_Feature:  We will create a list of 8000 most frequent words in the corpus. Obviously, we will not be including stop words and special symbol in it and we will only be considering those words which are greater than 2 in length. This will give us a list of relevant words in the corpus.
+
 Featureset: We will create a feature set for each review using Word_Feature. We will check which all words of Word_Feature exist in review as well and assign True to it if it exist otherwise it will be assigned False. Same process we will repeat for all reviews in our dataset. So eventually the size of Feature set obtained by this process will be N x M (N is total no of reviews and M is length of Word_Feature).
 
 Classification Models:
