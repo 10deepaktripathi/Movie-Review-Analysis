@@ -23,7 +23,6 @@ movie_reviews.words(fileid) --> Tell you words used in a review under specified 
 Data Preprocessing:
 
 Reviews in this corpus are not cleaned. It contains many stop words and symbols. We will have to remove them for better model performance. Also words like boy and boys should be treated in the same way. To cater this case we will apply stemming on each word of corpus. Eventually we will shuffle whole dataset of reviews randomly so that when we are dividing them into train and test we have more chances of having pos and neg reviews in equal proportion in both train and test dataset.
-Below is the picture of an un-cleaned review.
 
 Data Modelling for NLTK Naïve base classifier
 
