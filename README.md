@@ -35,3 +35,19 @@ Featureset: We will create a feature set for each review using Word_Feature. We 
 Classification Models:
 we will be applying NLTK naïve bays classifier and Scikit learn Random Forest classifier both one by one and check which one performs better
 
+
+
+
+Random Forest Classifier with BI-Gram Countvectorizer / TF-IDF
+
+
+I have used Scikit learns Random Forest classifier, which expect data to be in numeric format. To do that, I have first combined the tokenized words of reviews and then fed them in Count Vectorizer and TF-IDF both one by one to check which produces better result. 
+
+First, I have trained random forest with vectors that I received with count vectorizer and this model produced the better results than others. It got 85% accuracy, precision, recall and F1-score.
+
+Second, I have again trained random forest with TF-IDF vectors and it was better than Naïve Bays but poor than Random Forest with Contvectorizer model. I got 82% accuracy, precision, recall and F1-score with this model. 
+
+Feature Importance Using Random Forest
+
+Random forest offers importance score against each attribute. We can take advantage of it and know which features were most important
+
