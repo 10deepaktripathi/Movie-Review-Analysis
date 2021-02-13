@@ -51,3 +51,6 @@ Feature Importance Using Random Forest
 
 Random forest offers importance score against each attribute. We can take advantage of it and know which features were most important
 
+
+
+
